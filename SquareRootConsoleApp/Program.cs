@@ -12,7 +12,7 @@ namespace SquareRootConsoleApp
         {
             Console.WriteLine("enter number to square : ");
             long input = Convert.ToInt64(Console.ReadLine());
-
+            //comment to trigger build
             Console.WriteLine("Square is" + input * input);
             Console.Read();  
         }
